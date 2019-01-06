@@ -1,0 +1,97 @@
+{
+    "opList": [
+        {
+            "op_param": {
+                "param_list": [
+                    "http://www.baidu.com",
+                    "http://www.qq.com",
+                    "http://www.360.com"
+                ]
+            },
+            "op_setting": {
+                "alias": "循环",
+                "ifBreakAfterTime": false,
+                "loopNum": 0,
+                "loopNum ": 1,
+                "loopWay": 4,
+                "waitElem": "",
+                "waitTime": 3
+            },
+            "op_type": 7,
+            "sub_opList": [
+                {
+                    "op_param": {
+                        "URL": "http://www.qq.com"
+                    },
+                    "op_setting": {
+                        "CookieText": "",
+                        "alias": "打开网页",
+                        "ifBlockAD": false,
+                        "ifCleanCookie": false,
+                        "ifLoop": false,
+                        "ifMovepage": false,
+                        "ifRedefCookie": false,
+                        "ifRetryOpen ": false,
+                        "timeout": 5
+                    },
+                    "op_type": 0
+                },
+                {
+                    "op_param": {
+                        "elem_list": [
+                            {
+                                "default": "hehe no data",
+                                "elemXpath": "",
+                                "name": "网页标题1",
+                                "strategy": 0,
+                                "vlueType": 5
+                            },
+                            {
+                                "default": "hehe no data",
+                                "elemXpath": "",
+                                "name": "网页标题2",
+                                "strategy": 0,
+                                "vlueType": 5
+                            },
+                            {
+                                "default": "hehe no data",
+                                "elemXpath": "",
+                                "name": "网页标题3",
+                                "strategy": 0,
+                                "vlueType": 5
+                            },
+                            {
+                                "default": "hehe no data",
+                                "elemXpath": "",
+                                "name": "网页标题4",
+                                "strategy": 0,
+                                "vlueType": 5
+                            },
+                            {
+                                "default": "hehe no data",
+                                "elemXpath": "",
+                                "name": "网页标题5",
+                                "strategy": 0,
+                                "vlueType": 5
+                            },
+                            {
+                                "default": "hehe no data",
+                                "elemXpath": "",
+                                "name": "网页标题6",
+                                "strategy": 0,
+                                "vlueType": 5
+                            }
+                        ]
+                    },
+                    "op_setting": {
+                        "alias": "采集数据",
+                        "waitElem": "",
+                        "waitTime": 3
+                    },
+                    "op_type": 3
+                }
+            ]
+        }
+    ],
+    "title": "新建任务"
+}
